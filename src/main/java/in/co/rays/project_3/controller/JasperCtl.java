@@ -43,7 +43,7 @@ public class JasperCtl extends BaseCtl {
 
 			/* Compilation of jrxml file */
 			JasperReport jasperReport = JasperCompileManager.compileReport(
-					"D:\\ORS_Project_03\\project_3\\src\\main\\webapp\\jasper\\MarksheetMerit.jrxml");
+					"D:\\NEERAJ PROJECTS\\PROJECT_03\\Project_3\\src\\main\\webapp\\jasper\\MarksheetMerit.jrxml");
 
 			HttpSession session = request.getSession(true);
 			UserDTO dto = (UserDTO) session.getAttribute("user");

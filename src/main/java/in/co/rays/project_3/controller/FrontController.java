@@ -20,7 +20,7 @@ import in.co.rays.project_3.util.ServletUtility;
  * @author Neeraj Rathore
  *
  */
-@WebFilter(urlPatterns={"/ctl/*","/doc/*"})
+@WebFilter(urlPatterns={"/ctl/*","/doc1/*"})
 public class FrontController implements Filter {
 	public void init(FilterConfig conf) throws ServletException {
 	}
